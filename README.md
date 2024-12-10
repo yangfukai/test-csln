@@ -1,16 +1,16 @@
 <div align="center">
  <img width="180px" src="src/.vuepress/public/logo.png">
     <p/>
- <h1>『CSLN（Computer Science Learn Notes）』</h1>
+ <h1>『CSLN』</h1>
 </div>
 
 
 
 
 
-:rocket: CS（Computer Science）生涯学习/读书笔记，集成Java知识体系！
+生涯学习/读书笔记，集成Java知识体系！
 
-:fire: :fire: :fire:  推荐 | 在线阅读：<https://github.com/yangfukai/test-csln/>
+:fire: :fire: :fire:  推荐 | 在线阅读：<https://yangfukai.github.io/test-csln/>
 
 ## :milky_way:标志说明
 

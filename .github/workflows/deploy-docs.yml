@@ -18,8 +18,6 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-
-
       - name: 🔧设置 Node.js
         uses: actions/setup-node@v3
         with:
@@ -35,13 +33,19 @@ jobs:
         run: |-
           yarn run docs:build
           > src/.vuepress/dist/.nojekyll
-
       - name: 👷部署文档
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: src/.vuepress/dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: src/.vuepress/dist
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+#      - name: 👷部署文档
+#        uses: crazy-max/ghaction-github-pages@v2
+#        with:
+#          # 部署到 gh-pages 分支
+#          target_branch: gh-pages
+#          # 部署目录为 VuePress 的默认输出目录
+#          build_dir: src/.vuepress/dist
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
