@@ -3,18 +3,18 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://zhiyu1998.github.io/Computer-Science-Learn-Notes/",
+  hostname: "https://github.com/yangfukai/test-csln/",
 
   author: {
-    name: "zhiyu1998",
-    url: "https://github.com/zhiyu1998",
+    name: "yangfukai",
+    url: "https://github.com/yangfukai",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "zhiyu1998/Computer-Science-Learn-Notes",
+  repo: "yangfukai/test-csln",
 
   docsDir: "demo/theme-docs/src",
 

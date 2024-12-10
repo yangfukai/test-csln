@@ -2175,7 +2175,7 @@ fun main() {
         "Zhiyu",
         "https://static.hetaousercontent.com/labs/squares/random?theme=duskfalling&user_id=2886891",
         "https://github.com/",
-        "https://github.com/zhiyu1998/Computer-Science-Learn-Notes"
+        "https://github.com/yangfukai/test-csln"
     )
 
     val userVO: UserVO = userDTO.mapAs()
@@ -2185,7 +2185,7 @@ fun main() {
         "id" to 0,
         "login" to "Zhiyu",
         "avatarUrl" to "https://github.com",
-        "url" to "https://github.com/zhiyu1998/Computer-Science-Learn-Notes"
+        "url" to "https://github.com/yangfukai/test-csln"
     )
 
     val userVOFromMap:UserVO = userMap.mapAs()
